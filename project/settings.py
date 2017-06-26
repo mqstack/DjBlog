@@ -25,7 +25,7 @@ SECRET_KEY = 'xf*5-byq9u%+f1qsd4l(^di$@d)g50a@p1=nu1$i#c!@cvty&*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost ', '63.223.104.228']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -121,7 +121,3 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-
-# Config for disqus
-DISQUS_API_KEY = 'hfDe453aqLeAkkmDAphBMxJ4eY6j1n7oqs6sy3cXjILc9DjMKQdqbdJCMDup8CAx'
-DISQUS_WEBSITE_SHORTNAME = 'mqstack-django'
